@@ -1,75 +1,32 @@
-<div class="container mt-5">
-    <form>
-        <div class="form-group row">
-            <label for="campaignName" class="col-sm-2 col-form-label">Campaign Name</label>
-            <div class="col-sm-10">
-                <input type="text" class="form-control" id="campaignName" placeholder="Campaign Name">
-            </div>
-        </div>
-        <div class="form-group row">
-            <label for="topic" class="col-sm-2 col-form-label">Topic</label>
-            <div class="col-sm-10">
-                <input type="text" class="form-control" id="topic" placeholder="Topic">
-            </div>
-        </div>
-        <div class="form-group row">
-            <label for="subject" class="col-sm-2 col-form-label">Subject</label>
-            <div class="col-sm-10">
-                <input type="text" class="form-control" id="subject" placeholder="Subject">
-            </div>
-        </div>
-        <div class="form-group row">
-            <label for="sender" class="col-sm-2 col-form-label">Sender</label>
-            <div class="col-sm-10">
-                <select class="form-control" id="sender">
-                    <option>Select Sender</option>
-                    <option>Sender 1</option>
-                    <option>Sender 2</option>
-                    <option>Sender 3</option>
-                </select>
-            </div>
-        </div>
-        <div class="form-group row">
-            <label for="receiver" class="col-sm-2 col-form-label">Receiver</label>
-            <div class="col-sm-10">
-                <select class="form-control" id="receiver">
-                    <option>Select Receiver</option>
-                    <option>Receiver 1</option>
-                    <option>Receiver 2</option>
-                    <option>Receiver 3</option>
-                </select>
-            </div>
-        </div>
-        
-       
-        
-        <div class="form-group row">
-            <div class="col-md-12">
-                <div class="container mt-5">
-                    <div class="toolbar">
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-primary">Send</button>
-                            <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="sr-only">Toggle Dropdown</span>
-                            </button>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Schedule for later</a>
-                                <a class="dropdown-item" href="#">Send now</a>
-                            </div>
-                        </div>
-                        
-                        <i class="fas fa-font"></i>
-                        <i class="fas fa-paperclip"></i>             
-                        <i class="fas fa-pen"></i>
-                        <i class="fas fa-calendar-alt"></i>
-                        <i class="fas fa-trash-alt"></i>
+<div class="container">
+<div class="row">
+<div class="col-3 ">
+    <button type="button" class="btn btn-danger">Compose</button>
+</div>
+
+</div>
+<div class="row pt-5">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <div class="row">
+                    <div class="col-md-11">
+                        New Message   
+                    </div>
+                    <div class="col-md-1">                  
+                        <span class="btn-close btn-lg" data-bs-dismiss="toast"></span>
                     </div>
                 </div>
-
-
-
-            
             </div>
-        </div>
-    </form>
+            <div class="card-body">
+               <div class="row">
+                  <div class="col-md-8">
+                      <label class="form-label">To</label>
+                      <input type="text" class="form-control" />
+                  </div>
+               </div>
+            </div>
+          </div>
+    </div>
+</div>
 </div>
