@@ -20,10 +20,22 @@
             </div>
             <div class="card-body">
                <div class="row">
-                  <div class="col-md-8">
+                  <div class="col-md-8 m-2">
                       <label class="form-label">To</label>
                       <input type="text" class="form-control" />
                   </div>
+                  <div class="col-md-8 m-2">
+                    <label class="form-label">Subject</label>
+                    <input type="text" class="form-control" />
+                </div>
+                <div class="col-md-8 m-2">
+                    <div class="NgxEditor__Wrapper" style="height: 340px;">
+                        <ngx-editor-menu [editor]="editor" [toolbar]="toolbar">
+                        </ngx-editor-menu>
+                        <ngx-editor [editor]="editor" 
+                            [placeholder]="'Type here...'"></ngx-editor>
+                    </div>
+                </div>
                </div>
             </div>
           </div>
